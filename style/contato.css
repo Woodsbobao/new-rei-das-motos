@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000000;
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgb(255, 0, 0);
+}
+.menu li {
+    list-style: none;
+    color: rgb(255, 0, 0);
+}
+body{
+    background-color: #000000;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+h1{
+    text-align: center;
+    margin-top: 15vh;
+    color: rgb(255, 0, 0);
+    font-family: 'Verdana';
+    margin-bottom: 5vw;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+div#contatos{
+    color: rgb(255, 255, 255);
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    text-align: center;
+    display: flex; 
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 47vh;
+    color: #000000;
+}
+footer{
+    background-color:#000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: 1em;
+    padding-top: 5px;
+}
+footer a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+a{
+    color: rgb(0, 0, 0);
+}
+div#endereco{
+ 
+}
+div#telefone{
+ 
+}
+div#email{
+
+}
+h2{
+    color: chocolate;
+}
+

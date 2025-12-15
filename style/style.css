@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    color: chartreuse;
+}
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgb(255, 0, 0);
+}
+.menu li {
+    list-style: none;
+    color: rgb(255, 0, 0);
+}
+
+
+a:hover{
+    color: red;
+}
+
+img#logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+main h1{
+    color: #000000;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color:#000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: 2em;
+    padding-top: 5px;
+}
+a#link{
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+div#container{
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha */
+    gap: 10px;
+}
+div#descrição{
+    width: 40%;
+    margin-left: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #000000;
+    margin-right: 20px;
+}
+main{
+    background-image: url('../img/yamaha.jpg'); 
+    background-color: #777776;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+body{
+    background-color: #777776;
+}
+
+.inicio{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+    padding-top: 5%;
+}
+h1#inicio{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding-top: 5%;
+}
+div#footer{
+    background-color: #000000;
+    color: white;
+    padding: 1.5em;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: flex;
+    padding-top: 1.5em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+img#imgfooter{
+   width: 70%;
+   height: 40%;
+   border-radius: 10px;
+}
+ul#contato{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin-left: auto;
+}
+@media (min-width: 1920px) {
+    img#imgfooter {
+        margin-left: 150px;
+    }
+   ul#contato {
+       margin-right: 150px;
+   }
+}
