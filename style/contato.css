@@ -44,7 +44,7 @@ nav a{
 }
 div#contatos{
     color: rgb(255, 255, 255);
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
+        ;
     text-align: center;
     display: flex; 
     gap: 2vw;
