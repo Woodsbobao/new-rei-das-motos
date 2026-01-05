@@ -8,14 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Login</title>
     <style>
-        nav {
-            font-style: italic;
-            font-size: 17px;
-            margin-bottom: -20px;
-            margin-top: -5px;
-            width: 100%;
-            
-        }
         #logo {
             margin-left: 5px;
         }
@@ -62,38 +54,10 @@
         text-align: center;
         margin-top: 150px;
         }
+
     </style>
 </head>
 <body> 
-  <nav class="navbar navbar-expand-lg bg-body-primary" >
-  <div class="container-fluid">
-  <a class="navbar-brand" href="/Projeto Final - style/index.html"> 
-    <img src="img\logo.png" class="img-fluid" style="border-radius:100%" alt="Logo" width="100" height="100" id="logo"> 
-   </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/Projeto Final - style/Nossas lojas.html" style="color: white;">Nossas lojas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Projeto Final - style/Contato.html" style="color: white;">Contato</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Projeto Final - style/Cardapio.html" style="color: white;">Cardápio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Projeto Final - style/Login.php" style="color: white;">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Projeto Final - style/Cadastro.php" style="color: white;">Cadastro</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  </nav>
     <h1>Login</h1>
     <form action="testLogin.php" method="post">
         <label for="email">Email:</label><br>
@@ -106,7 +70,7 @@
     </form>
 </body>
 <footer>
-        ©2024, Chessmate, Inc. ou suas afiliadas
+        ©2026, Chessmate, Inc. ou suas afiliadas
         <br>
         <img src="img/chessmate.png" height="50px" width="50px" id="footerimg" style="border-radius:100%">
 </footer>
