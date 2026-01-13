@@ -11,11 +11,11 @@
 </head>
 <body> 
     <h1>Login</h1>
-    <form action="testLogin.php" method="post">
+    <form action="processar_login.php" method="post">
         <label for="email">Id:</label><br>
         <input type="email" id="email" name="email" required><br>
-        <label for="senha">Senha:</label><br>
-        <input type="password" id="senha" name="senha" required><br><br>
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
         <input type="checkbox" id="lembrar" name="lembrar">
         <label for="lembrar">Lembrar-me</label><br><br>
         <input type="submit" value="Entrar">
