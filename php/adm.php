@@ -1,7 +1,7 @@
 <?php
-require 'config.php';
+require 'db.php';
 
-if (!isset($_SESSION['admin_logged'])) {
+if (!isset($_SESSION['user'])) {
     header('Location: login.php');
     exit;
 }

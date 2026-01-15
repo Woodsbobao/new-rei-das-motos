@@ -12,6 +12,7 @@ try {
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
     ]);
 } catch (PDOException $e) {
-    die('Erro ao conectar ao banco: ' . $e->getMessage());
+    error_log($e->getMessage());
+    die('Erro interno. Tente novamente mais tarde.');
 }
 ?>

@@ -69,14 +69,35 @@ div#container{
     display: flex;
     flex-wrap: wrap; /* Permite quebrar linha */
     gap: 10px;
+    
 }
-div#descrição{
-    width: 40%;
+p#inicio{
+    font-size: 7em;
+    font-weight: bolder;
+}
+#carouselExampleAutoplaying{
+    border: 5px solid #000000;
+    border-radius: 10px;
+    width: 50%;
+    height: 60%;
+    margin-left: auto; 
+    margin-right: 5vw;
+    
+}
+div#descricao{
+    width: 35%;
+    display: block;
+    padding: 15px;
+    text-align: justify;
     margin-left: 5vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid #000000;
     margin-right: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(56, 56, 56, 0.7);
 }
+
 main{
     background-image: url('../img/yamaha.jpg'); 
     background-color: #777776;
@@ -130,4 +151,18 @@ ul#contato{
    ul#contato {
        margin-right: 150px;
    }
+}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#descricao {
+        width: 90%;   
+    }
+
+    div#carouselExampleAutoplaying {
+        width: 90%;
+    }
 }

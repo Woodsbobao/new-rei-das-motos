@@ -12,12 +12,10 @@
 <body> 
     <h1>Login</h1>
     <form action="processar_login.php" method="post">
-        <label for="email">Id:</label><br>
-        <input type="email" id="email" name="email" required><br>
+        <label for="text">Id:</label><br>
+        <input type="text" id="text" name="identificador" required><br>
         <label for="password">Senha:</label><br>
         <input type="password" id="password" name="password" required><br><br>
-        <input type="checkbox" id="lembrar" name="lembrar">
-        <label for="lembrar">Lembrar-me</label><br><br>
         <input type="submit" value="Entrar">
     </form>
 </body>
