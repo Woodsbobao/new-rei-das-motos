@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Busca usuário
-    $stmt = $pdo->prepare('SELECT id, name, identificador, password_hash FROM users WHERE identificador = :identificador LIMIT 1');
+    $stmt = $pdo->prepare('SELECT id, identificador, password_hash FROM users WHERE identificador = :identificador LIMIT 1');
     $stmt->execute([':identificador' => $identificador]);
     $user = $stmt->fetch();
 

@@ -106,15 +106,13 @@ div#descricao{
 
 main{
     background-image: url('../img/yamaha.jpg'); 
-    background-color:;
     background-repeat: no-repeat;
     background-position: center top;
 }
 body{
-    background-color: ;
-    color: bisque;
+    color: rgb(250, 250, 250);
 }
-
+    
 .inicio{
     text-align: center;
     font-size: clamp(0.9rem, 2vw, 1.2rem);
@@ -129,10 +127,8 @@ h1#inicio{
     padding-top: 5%;
 }
 div#footer{
-    background-color;
     color: white;
     padding: 1.5em;
-   
     border-bottom: 1px solid #ffffff;
     display: flex;
     padding-top: 1.5em;

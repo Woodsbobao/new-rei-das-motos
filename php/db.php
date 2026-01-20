@@ -2,7 +2,7 @@
 <?php
 // db.php
 $DB_HOST = 'localhost';
-$DB_NAME = 'sistema_login';
+$DB_NAME = 'admin';
 $DB_USER = 'root';
 $DB_PASS = ''; // ajuste conforme sua instalação
 
