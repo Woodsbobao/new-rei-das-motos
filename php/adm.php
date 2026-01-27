@@ -1,7 +1,8 @@
 <?php
+session_start();
 require 'db.php';
 
-if (!isset($_SESSION['user'])) {
+if (!isset($_SESSION['users'])) {
     header('Location: login.php');
     exit;
 }

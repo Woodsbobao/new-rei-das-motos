@@ -16,22 +16,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Busca usuário
     $stmt = $pdo->prepare('SELECT id, identificador, password_hash FROM users WHERE identificador = :identificador LIMIT 1');
     $stmt->execute([':identificador' => $identificador]);
-    $user = $stmt->fetch();
+    $users = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if (!$user || !password_verify($password, $user['password_hash'])) {
+    if (!$users || !password_verify($password, $users['password_hash'])) {
         header('Location: Login.php?error=' . urlencode('Credenciais inválidas.'));
         exit;
     }
 
-    // Autenticado
-    $_SESSION['user'] = [
-        'id' => $user['id'],
-        'name' => $user['name'],
-        'identificador' => $user['identificador'],
-    ];
-
     // Protege contra fixation: regenerar ID
     session_regenerate_id(true);
+
+    // Autenticados
+    $_SESSION['users'] = [
+        'id' => $users['id'],
+        'identificador' => $users['identificador'],
+    ];
 
     header('Location: adm.php'); // crie esta página conforme seu sistema
     exit;

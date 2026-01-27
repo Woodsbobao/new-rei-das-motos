@@ -11,9 +11,10 @@ body {
 font-family: Arial, sans-serif;
 background-color: #000000;
 color: #FFFFFF;
-background-image: url(motoa.png);
+background-image: url(../img/motoa.png);
 background-repeat: no-repeat;
 background-size: cover;
+margin-top: 10vh;
 }
 
 h1 {
@@ -26,7 +27,7 @@ form {
     text-align: center;
 }
 
-input[type="email"],
+input[type="text"],
 input[type="password"],
 input[type="submit"] {
     padding: 10px;
@@ -36,7 +37,7 @@ input[type="submit"] {
     background-color: #1E1E1E;
     color: #FFFFFF;
 }
-input[type="email"],
+input[type="text"],
 input[type="password"] {
 opacity: 50%;
 }
