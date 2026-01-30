@@ -19,8 +19,4 @@
         <input type="submit" value="Entrar">
     </form>
 </body>
-<footer>
-        ©2026, Rei das Motos, Inc. ou suas afiliadas
-        <br>
-</footer>
 </html>
