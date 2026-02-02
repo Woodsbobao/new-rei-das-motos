@@ -25,7 +25,6 @@ nav{
     color: rgb(255, 0, 0);
 }
 
-
 a:hover{
     color: red;
 }
@@ -105,7 +104,7 @@ div#descricao{
 }
 
 main{
-    background-image: url('../img/yamaha.jpg'); 
+    background-image: url('../img/yamaha.png'), url('../img/yamaha.jpg'), url('../img/moto1.jpg'); 
     background-repeat: no-repeat;
     background-position: center top;
 }
