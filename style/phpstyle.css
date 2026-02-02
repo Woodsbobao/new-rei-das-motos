@@ -14,9 +14,15 @@ color: #FFFFFF;
 background-image: url(../img/motoa.png);
 background-repeat: no-repeat;
 background-size: cover;
+<<<<<<< HEAD
 
 margin-top: 10vh;
 
+=======
+margin-top: 5vh;
+background-attachment: scroll;
+min-height: 90vh;
+>>>>>>> 209970f5f1e79cab7dc357eaf095c1952a3b6d92
 }
 
 h1 {
