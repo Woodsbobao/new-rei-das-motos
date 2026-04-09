@@ -44,7 +44,6 @@ nav a{
 }
 div#contatos{
     color: rgb(255, 255, 255);
-        ;
     text-align: center;
     display: flex; 
     gap: 2vw;
@@ -59,7 +58,6 @@ div#contatos{
 footer a{
     font-weight: bold;
     color: rgb(255, 255, 255);
-    
 }
 a{
     color: rgb(0, 0, 0);
